@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Billabong';
+    src: url('../fonts/Billabong.ttf'); /* Safari, Android, iOS */
+  }
+
+.logo {
+    font-family: 'Billabong', sans-serif;
+}
+
+a.logo {
+    font-size: 35px;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+.bordered {
+    border: 1px solid #a2a2a2;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 10px 50px;
+}
+
+.bordered-post {
+    border: 1px solid #a2a2a2;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.bordered-post img {
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 10px 5px;
+    margin-bottom: 7px;
+    border-radius: 2px;
+    border: 1px solid #a2a2a2;
+    background-color: #fafafa;
+}
+
+.input-bg {
+    background-color: #fafafa;
+}
+
+.login-form input[type="submit"], button.continue {
+    font-weight: bold;
+    margin-top: 7px;
+    background-color: rgb(0, 149, 246);
+    color: #ffffff;
+    border: none;
+}
+
+h1.logo {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.phones-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/phones-sign-in.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 60%;
+}
+
+.right-pane {
+    height: 100vh;
+}
+
+.right-pane > .row, .right-pane > .row > div {
+    width: 70%;
+}
+
+.get-the-app {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.get-the-app img{
+    width: 70%;
+}
+
+.navbar {
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+    /* background-color: #c4e5f6; */
+    background-color: #ffffff;
+}
+
